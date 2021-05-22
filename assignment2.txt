@@ -1,0 +1,106 @@
+
+
+Migration Task:
+Create a new branch for the migration section and perform the following tasks to that. When
+done then generate a PR for review.
+Do the needful. Apply tasks to your projects and answer the questions in a text file and push it
+with the same repo.
+1. Create migration files for adding columns, removing columns , Adding indexes to single
+as well as multiple columns.
+/demo/db/migrate/20210521102341_add_description_to_articles.rb
+/demo/db/migrate/20210521103127_remove_status_from_comments.rb
+/demo/db/migrate/20210521103612_add_index_to_articles.rb
+/demo/db/migrate/20210521142620_add_indexes_to_comments.rb
+
+
+2. How does Rails run only migrations which are not being executed yet. What is the
+process behind that?
+ Active Record keeps track of all migrations which had migrated and which not by using the timestamps attached prefix the name of migration file.
+  the timestamps also called migration id or VERSION
+ database: db/development.sqlite3
+
+ Status   Migration ID    Migration Name
+--------------------------------------------------
+   up     20210518092705  Create articles
+   up     20210518175705  Create comments
+   up     20210519072116  A status to comments
+   up     20210519072145  ********** NO FILE **********
+   up     20210519074114  Add status to comments
+   up     20210521102341  Add description to articles
+   up     20210521103127  Remove status from comments
+   up     20210521103612  Add index to articles
+   up     20210521103824  ********** NO FILE **********
+   up     20210521114409  Create products
+   up     20210521142620  Add indexes to comments
+   up     20210522082609  Change products price
+   up     20210522083814  Create stores
+   up     20210522084032  Add status to store
+   up     20210522162932  Change products name
+
+3. What is Version Id or Migration Id for any migration and how rails generate the or create
+a migration Id.
+Ans) migration ID or VERSION id is a timestamps attached to name of migration file whlie generating the migration file
+     suppose for example:$rails generate migration CreateProducts
+     it created migration file as "20210521114409_create_products.rb"
+
+4) Write Migrations using Up and Down methods.
+Ans) /demo/db/migrate/20210522082609_change_products_price.rb
+class ChangeProductsPrice < ActiveRecord::Migration[6.1]
+  def up
+    change_table :products do |t|
+      t.change :price, :text
+    end
+  end
+  def down
+    change_table :products do |t|
+      t.change :price, :integer
+    end
+  end
+end
+
+5). What will happen with the below scenario.
+class AddStatusToStore < ActiveRecord::Migration
+    def change
+        add_column :stores, :status, :integer
+    end
+end
+
+Executed -> rails db:migrate
+Again change same migration file:
+
+class AddStatusToStore < ActiveRecord::Migration
+    def change
+        add_column :stores, :status, :integer
+        add_column :stores, :type, :string
+    end
+end
+Now What will happen on running rails db:migrate ? Will this migration add a new column to
+the table or not.? If yes then explain why, If No then how will this new column be added to the
+table using same migration file, without creating another migration file.
+Ans) NO.
+    the new column will not be added to the database because once the migration file is migrated it Active Record keeps track the migrated files.
+    next time when we run the db:migrate the database will not change though the content in the file has been Changed
+    To add new columns we need to rollback the migrated file and then run db:migrate
+    $rails db:rollback
+    $rails db:migrate
+    or simply
+    $rails db:migrate:redo
+ 6. What are reversible migrations?
+ reversible migrations are used to change the database or schema of a table in both the situations (up/down)
+ The up method should describe the transformation you'd like to make to your schema.
+ the down method of your migration should revert the transformations done by the up method.
+ class ChangeProductsName < ActiveRecord::Migration[6.1]
+  def change
+    reversible do |dir|
+      change_table :products do |t|
+        dir.up {t.change :name,:text}
+        dir.down {t.change :name,:integer}
+      end
+    end
+  end
+end
+
+ 7. How to Run any specific migration file and how to revert the changes for any specific
+migration?
+Ans) To run any specific migration file $rails db:migrate:up VERSION=yyyymmddhhmmss
+     to revert the changes any specific migration db:migrate:down VERSION=yyyymmddhhmmss
