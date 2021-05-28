@@ -1,0 +1,14 @@
+<p>Find me in app/views/articles/index.html.erb</p>
+<h3>Article in index html</h3>
+
+<ul>
+<%@authors.each do |author|%>
+
+  <li>
+    <%=author.title%>
+    <%=author.first_name%>
+    <%=author.last_name%>
+  </li>
+
+<%end%>
+</ul>
