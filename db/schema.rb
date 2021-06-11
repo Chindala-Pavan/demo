@@ -10,20 +10,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_26_103751) do
+ActiveRecord::Schema.define(version: 2021_06_10_110206) do
 
-  create_table "authors", force: :cascade do |t|
+  create_table "assemblies", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "books", force: :cascade do |t|
-    t.integer "author_id"
+  create_table "assemblies_parts", id: false, force: :cascade do |t|
+    t.integer "assembly_id"
+    t.integer "part_id"
+    t.index ["assembly_id"], name: "index_assemblies_parts_on_assembly_id"
+    t.index ["part_id"], name: "index_assemblies_parts_on_part_id"
+  end
+
+  create_table "manifests", force: :cascade do |t|
+    t.integer "assembly_id"
+    t.integer "part_id"
     t.datetime "published_at"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["author_id"], name: "index_books_on_author_id"
+    t.index ["assembly_id"], name: "index_manifests_on_assembly_id"
+    t.index ["part_id"], name: "index_manifests_on_part_id"
+  end
+
+  create_table "parts", force: :cascade do |t|
+    t.string "part_number"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end

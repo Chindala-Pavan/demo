@@ -155,14 +155,11 @@ namespace :import do
     end
     desc "association"
     task :association => :environment do
-        @author=Author.create(name: "pavan")
-        @book=@author.books.create(published_at: Time.now)
-        @author=Author.create(name: "Kumar")
-        @book=@author.books.create(published_at: Time.now)
-        @book=@author.books.create(published_at: Time.now)
-        @author=Author.find_by(id: 1)
-        @book=@author.books.create(published_at: Time.now)
+        @p=Part.create(part_number: "2")
+        @a=Assembly.create(name: "jon")
     end
+
+    
 
     
         

@@ -8,3 +8,6 @@
 
 
 
+
+@p=Part.create(part_number: "2")
+@a=Assembly.create(name: "jon")

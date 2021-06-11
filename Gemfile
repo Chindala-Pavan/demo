@@ -10,6 +10,11 @@ gem 'sqlite3', '~> 1.4'
 
 #gem "pry"
 gem "pry"
+#awesome_print
+gem "awesome_print"
+#json
+gem "neatjson"
+#faker
 gem "faker"
 # Use Puma as the app server
 gem 'puma', '~> 5.0'

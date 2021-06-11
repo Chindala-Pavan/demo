@@ -1,5 +1,5 @@
 class Book < ApplicationRecord
-    belongs_to :author
+    #belongs_to :author
 =begin
     belongs_to :supplier
     belongs_to :Author
