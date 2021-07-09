@@ -3,7 +3,9 @@ class ArticlesController < ApplicationController
   def index
     @articles = Article.all
   end
-
+  def apinew
+    render json: {n:123,m:345}
+  end
 
   def show
     @article=Article.find(params[:id])

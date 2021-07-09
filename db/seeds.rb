@@ -7,7 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
+5.times do 
 
+    Article.create({
+        title: Faker::Book.title,
+        body: Faker::Lorem.sentence
+    })
 
-@p=Part.create(part_number: "2")
-@a=Assembly.create(name: "jon")
+end
+

@@ -10,33 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_10_110206) do
+ActiveRecord::Schema.define(version: 2021_05_18_092705) do
 
-  create_table "assemblies", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "assemblies_parts", id: false, force: :cascade do |t|
-    t.integer "assembly_id"
-    t.integer "part_id"
-    t.index ["assembly_id"], name: "index_assemblies_parts_on_assembly_id"
-    t.index ["part_id"], name: "index_assemblies_parts_on_part_id"
-  end
-
-  create_table "manifests", force: :cascade do |t|
-    t.integer "assembly_id"
-    t.integer "part_id"
-    t.datetime "published_at"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["assembly_id"], name: "index_manifests_on_assembly_id"
-    t.index ["part_id"], name: "index_manifests_on_part_id"
-  end
-
-  create_table "parts", force: :cascade do |t|
-    t.string "part_number"
+  create_table "articles", force: :cascade do |t|
+    t.string "title"
+    t.text "body"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
