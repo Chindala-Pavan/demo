@@ -1,0 +1,9 @@
+<h1> Sessions#welcome</h1>
+<% if logged_in? %>
+<h1> you are logged in as,<%=current_user.username%> </h1>
+<%= button_to "page_requires_login", '/authorized',method: :get%>
+<%= button_to "logout", '/logout',method: :delete%>
+<%else%>
+<%= button_to "login", '/login',method: :post%>
+<%= button_to "signup",'/users/new',method: :get%>
+<%end%>
