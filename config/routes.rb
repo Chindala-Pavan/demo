@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  
+  
+
+
+  get 'welcome/index'
+
+=begin
   namespace "api" do
     namespace "v1" do
       resources :articles
@@ -7,15 +14,19 @@ Rails.application.routes.draw do
   resources :articles do
     resources :comments
   end
-
-
   resources :users, only: [:new, :create]
   get 'login',to: 'sessions#new'
   post 'login',to: 'sessions#create'
   get 'welcome', to: 'sessions#welcome'
   get 'authorized', to: 'sessions#page_requires_login'
   delete 'logout', to: 'sessions#destroy'
-  root "sessions#welcome"
+  root ''
+=end
+  devise_for :admins
+  resources :admins
+  
+  #get 'welcome',to: 'welcome#index'
+  root 'welcome#index'
   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   

@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
     #before_action :login_required
 
     #This method checks if we have a user signed in
+=begin
     helper_method :current_user
     def current_user
         User.find_by(id: session[:user_id])
@@ -29,7 +30,7 @@ class ApplicationController < ActionController::Base
     end
     before_action :authorized
     def authorized
-        redirect_to '/welcome' unless logged_in?
+        redirect_to '/welcome/index' unless logged_in?
     end
-    
+=end    
 end

@@ -9,7 +9,7 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 gem 'sqlite3', '~> 1.4'
 
 gem 'bcrypt'
-
+gem 'devise'
 #gem "pry"
 gem "pry"
 #awesome_print
