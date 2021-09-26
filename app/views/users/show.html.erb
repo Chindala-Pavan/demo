@@ -1,0 +1,16 @@
+
+<% #if @user.avatar.variable?%>
+    <%#=#image_tag @user.avatar.variant(resize: '400x400')%>
+    <div>
+    <%#= #link_to image_tag(@user.avatar.variant(resize: '400x400')),@user.avatar%>
+
+    <div>
+    <%#= #link_to image_tag(@user.avatar.variant(resize: '400x400')),rails_blob_path(@user.avatar,disposition: :attachment)%>
+<%#elsif @user.avatar.previewable? %>
+    <%=image_tag @user.avatar.preview(resize: '400x400')%>
+    <div>
+    <%= link_to image_tag(@user.avatar.preview(resize: '400x400')),@user.avatar%>
+    
+    <div>
+    <%= link_to image_tag(@user.avatar.preview(resize: '400x400')),rails_blob_path(@user.avatar,disposition: :attachment)%>
+<%#end%>

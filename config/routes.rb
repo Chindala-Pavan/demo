@@ -24,6 +24,7 @@ Rails.application.routes.draw do
 =end
   devise_for :admins
   resources :admins
+  resources :users
   
   #get 'welcome',to: 'welcome#index'
   root 'welcome#index'

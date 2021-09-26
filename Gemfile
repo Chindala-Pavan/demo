@@ -10,6 +10,8 @@ gem 'sqlite3', '~> 1.4'
 
 gem 'bcrypt'
 gem 'devise'
+gem "image_processing", ">= 1.2"
+gem 'poppler', '~> 3.4', '>= 3.4.9'
 #gem "pry"
 gem "pry"
 #awesome_print
