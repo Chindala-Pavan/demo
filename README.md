@@ -12,6 +12,7 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-18-04
 
 * Database initialization
 
