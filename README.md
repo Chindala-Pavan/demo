@@ -23,5 +23,6 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * Deployment instructions
 
 * JWT https://medium.com/swlh/simple-jwt-authentication-with-rails-87b65cc1e817
+* digital error
 
 * ...
