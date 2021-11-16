@@ -30,6 +30,9 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
 * sudo apt-get update
 * sudo apt-get install google-chrome-stable
-# to install rbenv
+# to install rbenv 
+* https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04
+# to install ruby on rails with rbenv
+* https://www.tutorialspoint.com/how-to-setup-and-configure-ruby-on-rails-with-rbenv-on-ubuntu-16-04
 * ...
 
