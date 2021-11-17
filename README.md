@@ -36,9 +36,10 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * https://www.tutorialspoint.com/how-to-setup-and-configure-ruby-on-rails-with-rbenv-on-ubuntu-16-04
 # creating ruby gem
 * https://guides.rubygems.org/make-your-own-gem/
-*bundle gem gem_name
-*gem build gem_name.gemspec
-*////create ruby gem account and verify
+* 
+* bundle gem gem_name
+* gem build gem_name.gemspec
+* ////create ruby gem account and verify
 * curl -u username  https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
 * gem push gem_name.version.gem //latest generated file
 * //next you can use this gem in other projects
