@@ -43,5 +43,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * curl -u username  https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
 * gem push gem_name.version.gem //latest generated file
 * //next you can use this gem in other projects
+# docker
+* https://www.honeybadger.io/blog/testing-rails-with-docker/
 * ...
 
