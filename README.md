@@ -2,6 +2,17 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
+* authentication(sign up,sign in,sessions)
+* databases
+* api(postman, RESTAPI)
+* notification
+* streaming 
+* docker
+* database console
+* ACTIVE JOBS
+* s3_storage or paperclip
+* admin_pannel
+* migrations
 
 Things you may want to cover:
 
