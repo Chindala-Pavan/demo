@@ -13,6 +13,7 @@ application up and running.
 * s3_storage or paperclip
 * admin_pannel
 * migrations
+* json
 
 Things you may want to cover:
 
