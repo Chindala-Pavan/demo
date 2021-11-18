@@ -14,6 +14,8 @@ application up and running.
 * admin_pannel
 * migrations
 * json
+* creatings gems and uploading gems
+* gitbub git clone ,push,pull commit, add , restore,checkout,add remote, ssh-gen,
 
 Things you may want to cover:
 
