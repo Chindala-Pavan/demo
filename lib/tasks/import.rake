@@ -6,6 +6,7 @@ namespace :import do
             first_name = row[1]
             last_name=row[2]
             title= row[3]
+            ActiveRecord::Base.connection.execute("select * from authors")
             Author.create(first_name: first_name,last_name: last_name,title: title)
         end
     end
@@ -107,7 +108,7 @@ namespace :import do
             puts order_id.to_i.class
             
             
-        
+            
             #b=books_orders.new(id:id,book_id: book_id,order_id: order_id)
             #puts p #(validate: false)
         end
@@ -152,6 +153,14 @@ namespace :import do
         revert CreateAuthors
         revert CreateCustomers
     end
+    desc "association"
+    task :association => :environment do
+        @p=Part.create(part_number: "2")
+        @a=Assembly.create(name: "jon")
+    end
+
+    
+
     
         
 =begin
