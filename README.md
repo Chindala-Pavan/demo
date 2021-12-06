@@ -62,4 +62,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * https://www.honeybadger.io/blog/testing-rails-with-docker/
 * https://www.howtoforge.com/setup-ruby-on-rails-development-environment-with-docker-and-docker-compose-on-ubuntu/
 * ...
+# virtual env
+* virtualenv s3-lambda
+* source s3-lambda/bin/activate
 
