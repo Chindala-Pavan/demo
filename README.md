@@ -65,4 +65,5 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 # virtual env
 * virtualenv s3-lambda
 * source s3-lambda/bin/activate
+* deactivate
 
