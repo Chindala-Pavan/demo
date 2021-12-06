@@ -67,4 +67,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * source s3-lambda/bin/activate
 * deactivate
 * rm -rf s3-lambda
+# zip
+* zip -r ../../../../lambda.zip .
+* zip -g ../lambda.zip transform.py
 
