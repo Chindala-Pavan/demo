@@ -71,3 +71,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * zip -r ../../../../lambda.zip .
 * zip -g ../lambda.zip transform.py
 
+# server
+* cluster
+* task definition
+* RDS
