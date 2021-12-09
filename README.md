@@ -48,8 +48,10 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 # to install rbenv 
 * https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04
 # to install ruby on rails with rbenv
+* you need to know how to use specific version and assign apecific version to to name
 * https://www.tutorialspoint.com/how-to-setup-and-configure-ruby-on-rails-with-rbenv-on-ubuntu-16-04
 # to install nvm to handle node version manager
+* you need to know how to use specific version 
 * https://tecadmin.net/how-to-install-nvm-on-ubuntu-20-04/
 # creating ruby gem
 * https://guides.rubygems.org/make-your-own-gem/
