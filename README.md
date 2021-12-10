@@ -2,6 +2,7 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
+https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.ruby-on-rails-development-extensions-pack
 * authentication(sign up,sign in,sessions)
 * github
 * databases
