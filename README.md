@@ -85,6 +85,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * ssl certificate
 * CDN
 * container or kubernets
+* github
 * database
 * third party plugind for project
 * suitable  cloud platform
