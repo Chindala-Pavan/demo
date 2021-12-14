@@ -80,3 +80,13 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * cluster
 * task definition
 * RDS
+# to host a website 
+* domain name https
+* ssl certificate
+* CDN
+* container or kubernets
+* database
+* third party plugind for project
+* suitable  cloud platform
+* twilio & SMTP
+* CI/CD pipline 
