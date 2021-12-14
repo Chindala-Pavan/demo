@@ -86,6 +86,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * CDN
 * container or kubernets
 * github
+* heroku
 * database
 * third party plugind for project
 * suitable  cloud platform
