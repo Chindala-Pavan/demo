@@ -93,8 +93,14 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * twilio & SMTP
 * CI/CD pipline 
 # heroku
-heroku apps
- 2310  git remote -v
- 2311  heroku git:remote -a r-stack
- 2312  git remote -v
- 2313  git push heroku dev:main
+* heroku apps
+* git remote -v 
+* heroku git:remote -a r-stack
+* git remote -v
+* git push heroku dev:main
+*  git status
+*  git diff app/controllers/api/v1/passwords_controller.rb
+*  git commit -m "update password with reset pass token"
+*  git push origin dev
+*  history
+*  git push heroku dev:main
