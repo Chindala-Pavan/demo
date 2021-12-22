@@ -92,3 +92,9 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * suitable  cloud platform
 * twilio & SMTP
 * CI/CD pipline 
+# heroku
+heroku apps
+ 2310  git remote -v
+ 2311  heroku git:remote -a r-stack
+ 2312  git remote -v
+ 2313  git push heroku dev:main
