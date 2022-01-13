@@ -20,6 +20,9 @@ https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.ruby-on-rail
 * gitbub git clone ,push,pull commit, add , restore,checkout,add remote, ssh-gen,
 * Notification
 * Moule prepend ,extend,include,require
+* Active record transaction
+* Exception handling begin rescue
+* Block proc
 
 Things you may want to cover:
 
