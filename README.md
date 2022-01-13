@@ -18,6 +18,8 @@ https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.ruby-on-rail
 * json
 * creatings gems and uploading gems
 * gitbub git clone ,push,pull commit, add , restore,checkout,add remote, ssh-gen,
+* Notification
+* Moule prepend ,extend,include,require
 
 Things you may want to cover:
 
