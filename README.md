@@ -109,3 +109,6 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 *  git push origin dev
 *  history
 *  git push heroku dev:main
+# docker-compose
+* https://docs.docker.com/samples/rails/#:~:text=Build%20the%20project&text=First%2C%20Compose%20builds%20the%20image,have%20generated%20a%20fresh%20app.
+
