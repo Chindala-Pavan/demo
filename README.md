@@ -7,6 +7,7 @@ https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.ruby-on-rail
 * github
 * databases
 * api(postman, RESTAPI)
+* Rspec https://www.microverse.org/blog/test-driven-development-of-restful-json-api-with-rails
 * notification
 * streaming 
 * docker
