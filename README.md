@@ -24,10 +24,6 @@ https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.ruby-on-rail
 * Active record transaction
 * Exception handling begin rescue
 * Block proc
-# how to check whether the github is connected to local system or not
-* ssh -T git@github.com
-* git config -l
-* git config --global user.email email@gamil.com # to set email 
 Things you may want to cover:
 
 * Ruby version
@@ -49,7 +45,10 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 
 * JWT https://medium.com/swlh/simple-jwt-authentication-with-rails-87b65cc1e817
 * digital error --openssl-legacy-provider
-* 
+# how to check whether the github is connected to local system or not
+* ssh -T git@github.com
+* git config -l
+* git config --global user.email email@gamil.com # to set email 
 # to install google chrome in ubuntu
 * wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 * echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
