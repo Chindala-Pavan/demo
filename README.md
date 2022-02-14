@@ -24,7 +24,10 @@ https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.ruby-on-rail
 * Active record transaction
 * Exception handling begin rescue
 * Block proc
-
+# how to check whether the github is connected to local system or not
+* ssh -T git@github.com
+* git config -l
+* git config --global user.email email@gamil.com # to set email 
 Things you may want to cover:
 
 * Ruby version
