@@ -114,4 +114,18 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 *  git push heroku dev:main
 # docker-compose
 * https://docs.docker.com/samples/rails/#:~:text=Build%20the%20project&text=First%2C%20Compose%20builds%20the%20image,have%20generated%20a%20fresh%20app.
+# Flutter topics
+* stateless
+* statefull
+* creating custom widget
+* media query
+* textfield button
+* onpreseed for buttons
+* context how to use it
+* listview.builder
+* listtile
+* container
+* scaffold
+* row
+* column
 
