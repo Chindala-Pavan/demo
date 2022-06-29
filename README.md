@@ -133,3 +133,13 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * Scroll view
 * Scaffold bottom navigation 
 * Sizedbox
+* int1 (for formatcurrency)
+* Expand (use remaining space)
+* safearea (do not cover the status bar)
+* main_axis_alignment.spacebetween,crossaxisalignment
+* padding (space between border and widget) Edgeinsets
+* divider (it is a line)
+* single child scroll view
+* ClipRRect
+* Positioned (specify the position of child)
+* flatten button
