@@ -83,7 +83,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 # zip
 * zip -r ../../../../lambda.zip .
 * zip -g ../lambda.zip transform.py
-
+# https://github.com/rails/rails
 # server
 * cluster
 * task definition
