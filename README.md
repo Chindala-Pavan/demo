@@ -144,3 +144,8 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * ClipRRect
 * Positioned (specify the position of child)
 * flatten button
+# rvm ji error
+* rvm get master
+* rvm reload
+* rvm pkg install openssl
+* rvm reinstall 2.2.10 --force -C --with-openssl-dir=$HOME/.rvm/usr
