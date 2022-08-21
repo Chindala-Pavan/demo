@@ -150,4 +150,8 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * rvm pkg install openssl
 * rvm reinstall 2.2.10 --force -C --with-openssl-dir=$HOME/.rvm/usr
 # alternative to twilio
-https://dev.to/psanders/how-we-created-an-open-source-alternative-to-twilio-and-why-it-matters-434g
+* https://dev.to/psanders/how-we-created-an-open-source-alternative-to-twilio-and-why-it-matters-434g
+# radio
+* http://player.internet-radio.com/?server=http://176.31.60.21:8888
+# 10 open source 
+* https://youtu.be/qXUl3VsbA6o
