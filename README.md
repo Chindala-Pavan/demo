@@ -155,3 +155,5 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * http://player.internet-radio.com/?server=http://176.31.60.21:8888
 # 10 open source 
 * https://youtu.be/qXUl3VsbA6o
+# Flutter jwt auth
+* https://dev.to/carminezacc/user-authentication-jwt-authorization-with-flutter-and-node-176l
