@@ -160,3 +160,18 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * https://dev.to/carminezacc/user-authentication-jwt-authorization-with-flutter-and-node-176l
 # Jwt auth in django
 * https://dev.to/bhavanaeh/jwt-authentication-with-django-rest-framework-what-why-how-50kj
+
+#backend concepts
+authentication
+associations
+storage
+email_sending
+otp sending
+asynchronous task frameworks(celery,django-q for django,activejobs,sidekiq for rails)
+websockets
+mixins
+notifications
+Class-based Views(django)
+elastic bean stack
+elastic search
+https://www.fullstackpython.com/django.html
