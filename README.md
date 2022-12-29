@@ -175,5 +175,3 @@ Class-based Views(django)
 elastic bean stack
 elastic search
 https://www.fullstackpython.com/django.html
-
-English words
