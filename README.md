@@ -158,7 +158,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your
 * https://youtu.be/qXUl3VsbA6o
 # Flutter jwt auth
 * https://dev.to/carminezacc/user-authentication-jwt-authorization-with-flutter-and-node-176l
-# Jwt auth in django
+# Jwt auth in django * https://medium.com/@rajansahu713/customization-of-django-admin-interface-312b4a3c0f84
 * https://dev.to/bhavanaeh/jwt-authentication-with-django-rest-framework-what-why-how-50kj
 
 # backend concepts
