@@ -191,3 +191,13 @@ make install
 rm -rf ~/.openssl/openssl-1.1.1g/certs
 ln -s /etc/ssl/certs ~/.openssl/openssl-1.1.1g/certs
 rvm reinstall ruby-2.6.5 --with-openssl-dir=$HOME/.openssl/openssl-1.1.1g
+# Ruby on Rails interview tops
+cors
+rack
+rake
+activerecord
+migrations
+ORM
+controller and helpers
+Http verbs
+
