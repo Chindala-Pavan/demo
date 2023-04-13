@@ -193,7 +193,7 @@ ln -s /etc/ssl/certs ~/.openssl/openssl-1.1.1g/certs
 rvm reinstall ruby-2.6.5 --with-openssl-dir=$HOME/.openssl/openssl-1.1.1g
 # Ruby on Rails interview tops
 cors
-rack
+rack(https://www.akshaykhot.com/definitive-guide-to-rack/#:~:text=Rack%20provides%20a%20layer%20between,into%20a%20single%20method%20call.)
 rake
 activerecord
 migrations
